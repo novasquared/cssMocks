@@ -9,22 +9,93 @@ body {
   width: 400px;
   height: 400px;
   background-color: red;
+  box-sizing: border-box;
 }
 
 .two {
   width: 300px;
   height: 300px;
   background-color: yellow;
+  box-sizing: border-box;
 }
 
 .three {
   width: 200px;
   height: 200px;
   background-color: green;
+  box-sizing: border-box;
 }
 
 .four {
   width: 100px;
   height: 100px;
   background-color: blue;
+  bottom: 0;
+  box-sizing: border-box;
 }
+
+/* Exercise 1 */
+/* .one, .two, .three {
+  padding: 50px;
+} */
+
+/* Exercise 2 */
+/* .four {
+  position: absolute;
+  top: 0;
+  right: 0
+} */
+
+/* Exercise 3 */
+/* .three {
+  position: relative;
+  left: 400px;
+  top: 200px;
+}
+
+.four {
+  position: relative;
+  top: 100px;
+} */
+
+/* Exercise 4 */
+
+/* .two {
+  position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.three {
+  left: -100px;
+    top: -100px;
+    box-sizing: border-box;
+    position: relative
+}
+
+.four {
+  position: relative;
+  top: 100px;
+  left: 100px;
+} */
+
+/* Exercise Five */
+
+/* .two {
+  position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.three {
+  position: absolute;
+  bottom: 300px;
+}
+
+.four {
+  position: fixed;
+    top: 0px;
+    left: 5px;
+} */
+
+
